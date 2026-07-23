@@ -1,8 +1,31 @@
 aid: 3t-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/3t-biosciences.png
 name: 3T Biosciences
-description: '3T Biosciences is a company surfaced as a portfolio company of crv and added to the API
-  Evangelist network as a stub for enrichment. Sector: biotech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  3T Biosciences is a clinical-stage immunotherapy company based in South San
+  Francisco, developing next-generation T-cell receptor (TCR) therapeutics for
+  solid tumors and other immune-mediated diseases. Founded in 2017 on research
+  from K. Christopher Garcia's lab at Stanford University, the company operates
+  its proprietary 3T-TRACE (T-Cell Receptor Antigen and Cross-reactivity
+  Evaluation) platform, which combines high-diversity yeast-display target
+  libraries with active machine-learning to screen billions of protein
+  fragments and identify novel shared TCR targets and specificities. 3T has
+  raised a $40M Series A from Westlake Village BioPartners and Lightspeed
+  Venture Partners and has struck cancer-immunotherapy collaborations with
+  Boehringer Ingelheim worth up to $268M in milestones. This profile was
+  surfaced as a portfolio company of CRV and enriched into the API Evangelist
+  network; 3T publishes no public developer API, SDK, or specification surface.
 url: https://raw.githubusercontent.com/api-evangelist/3t-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +39,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Biotech
+- Immunotherapy
+- Oncology
+- TCR Therapeutics
+- Cell Therapy
+- Drug Discovery
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +54,30 @@ maintainers:
 common:
 - type: Website
   url: https://3tbiosciences.com/
+- type: About
+  url: https://3tbiosciences.com/about/
+- type: Blog
+  url: https://3tbiosciences.com/news/
+- type: Publications
+  url: https://3tbiosciences.com/publications/
+- type: Careers
+  url: https://3tbiosciences.com/careers/
+- type: Support
+  url: https://3tbiosciences.com/contact/
+- type: PrivacyPolicy
+  url: https://3tbiosciences.com/privacy-policy
+- type: TermsOfService
+  url: https://3tbiosciences.com/terms-of-service
+- type: LinkedIn
+  url: https://www.linkedin.com/company/3tbiosciences/
+- type: Twitter
+  url: https://twitter.com/3tbio
+- type: LLMsTxt
+  url: llms/3t-biosciences-llms.txt
+- type: DomainSecurity
+  url: security/3t-biosciences-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
