@@ -2,6 +2,13 @@
   "repo": "3t-biosciences",
   "feeds": [
     {
+      "source": "https://3tbiosciences.com/feed/",
+      "feed_url": "https://3tbiosciences.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://3tbiosciences.com/about/",
       "feed_url": "https://3tbiosciences.com/feed/",
       "title": "",
@@ -9,6 +16,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-07-20T13:31:34Z"
+  "post_count": 8,
+  "fetched": "2026-08-01T15:49:00Z"
 }
