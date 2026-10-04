@@ -49,13 +49,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-- Biotech
+- Biotechnology
 - Immunotherapy
 - Oncology
 - TCR Therapeutics
 - Cell Therapy
 - Drug Discovery
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Biotech
@@ -65,6 +65,7 @@ tags_raw:
 - Cell Therapy
 - Drug Discovery
 - Machine Learning
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
